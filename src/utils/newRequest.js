@@ -5,10 +5,6 @@ const newRequest = axios.create({
   baseURL: BASEURL,
   withCredentials: true,
   crossDomain: true,
-  headers: {
-    "Access-Control-Allow-Origin":
-      "https://clone-fiverr-client-app01.netlify.app",
-  },
-});
+ });
 
 export default newRequest;
